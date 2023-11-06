@@ -1,0 +1,179 @@
+.Register {
+    display: flex;
+  }
+  
+  .RegisterLeft {
+    /* margin-top: 100px; */
+    width: 60%;
+  }
+  
+  .RegisterLeft>div{
+      margin-top: 100px;
+  }
+  
+  .RegisterLeft> div> div:nth-child(1) > p:nth-child(1) {
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 0em;
+    padding-left: 80px;
+    text-align: left;
+  }
+  .RegisterLeft >div> div:nth-child(1) > p:nth-child(2) {
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 0px;
+    letter-spacing: 0em;
+    padding-left: 80px;
+    text-align: left;
+    color: #525252;
+  }
+  .RegisterLeft>div> div:nth-child(2){
+      margin-top: 50px;
+  }
+  .RegisterLeft>div> div:nth-child(2) div{
+      margin-left: 80px;
+  }
+  .RegisterLeft>div> div:nth-child(2) input{
+      width: 599px;
+      height: 64px;
+      border-radius: 5px;
+      border: 2px solid #C2C2C2;
+  }
+  .RegisterLeft>div> div:nth-child(2) input::placeholder{
+      font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+  color: #525252;
+  }
+  /* .RegisterLeft>div> div:nth-child(2)>div:nth-child(2),:nth-child(3),:nth-child(4){
+      margin-top: 20px;
+  } */
+
+  .RegisterLeft>div>div:nth-child(2)>div:nth-child(2) {
+    margin-top: 20px;
+}
+
+.RegisterLeft>div>div:nth-child(2)>div:nth-child(3),
+.RegisterLeft>div>div:nth-child(2)>div:nth-child(4) {
+    margin-top: 20px;
+}
+
+
+  .RegisterLeft>div> div:nth-child(3){
+    margin-top: 20px;
+
+    margin-left: 75px;
+  }
+  .RegisterLeft>div> div:nth-child(3)>p{
+    display: inline;
+  }
+  .RegisterLeft>div> div:nth-child(3)>input[type=checkbox]{
+    /* appearance: none; */
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+    cursor: pointer;
+  }
+
+  .RegisterLeft>div> div:nth-child(3)>input[type=checkbox]:checked{
+    accent-color: #858585;
+  }
+
+  .RegisterLeft>div> div:nth-child(3)>p{
+    margin-left: 5px;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #525252;
+  }
+
+  .RegisterLeft>div> div:nth-child(4)>button{
+      width: 250px;
+      height: 53px;
+      margin-top: 20px;
+      margin-left: 80px;
+      background-color: #ED5353;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+  
+      font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  }
+  
+  .RegisterLeft>div> div:nth-child(4)>p{
+      margin-left: 80px;
+      display: inline-block;
+  
+      font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #525252;
+  }
+  
+  .RegisterLeft>div> div:nth-child(4)>span{
+      margin-left: 10px;
+      font-family: DM Sans;
+      cursor: pointer;
+      
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+  text-decoration: underline;
+  }
+  
+  .RegisterLeft>div> div:nth-child(4) button:hover{
+      border: 3px solid #0C8CE9;
+  }
+  
+  .RegisterLeft>div> div:nth-child(4) button:active{
+      border: 3px solid #525252;
+  }
+  
+  .RegisterRight {
+    line-height: 0;
+    width: 100%;
+    margin-left: 150px;
+  }
+  
+  .RegisterRight > img {
+    height: 754px;
+    width: 100%;
+  }
+  .RegisterRight>p{
+      position: absolute;
+      top: 10px;
+  
+      font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  left: 950px;
+  
+      color: #fff;
+  }
+  

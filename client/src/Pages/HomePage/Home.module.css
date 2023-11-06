@@ -1,0 +1,98 @@
+.homeSearch {
+  width: 1097px;
+  height: 254px;
+  margin-top: 150px;
+  margin-left: 200px;
+  box-shadow: 0px 0px 22px 4px rgba(255, 32, 32, 0.25);
+}
+
+.homeSearch > img {
+  position: relative;
+  left: 120px;
+  top: 8px;
+}
+
+.homeSearch > input {
+  width: 946px;
+  height: 62px;
+  margin-left: 75px;
+  margin-top: 25px;
+  border-radius: 8px;
+  border: 1.8px solid #e3e3e3;
+  text-indent: 50px;
+
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 500;
+
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+.homeSearch > input::placeholder {
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 500;
+
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9c9c9c;
+}
+
+.homeSkills {
+  display: flex;
+  width: 1050px;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+
+.homeSkills > select {
+  width: 143px;
+  height: 46px;
+  margin-top: 25px;
+  margin-left: 102px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1.8px solid #e3e3e3;
+
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9c9c9c;
+}
+
+.homeSkillItem {
+  display: flex;
+  margin-left: 20px;
+  width: 133px;
+  height: 46px;
+  margin-top: 25px;
+  background-color: #ffeeee;
+  border-radius: 2px;
+}
+
+.homeSkillItem > p {
+  margin-left: 15px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.homeSkillItem > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  cursor: pointer;
+  width: 41px;
+  height: 46px;
+  background-color: #ff6b6b;
+  border-radius: 0px 2px 2px 0px;
+  text-align: center;
+  font-size: 26px;
+  color: #fff;
+}

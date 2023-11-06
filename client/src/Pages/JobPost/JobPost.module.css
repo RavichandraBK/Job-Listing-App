@@ -1,0 +1,243 @@
+.addJob {
+  display: flex;
+}
+
+.addJobLeft {
+  width: 800px;
+}
+
+.addJobLeft > h1 {
+  margin-left: 80px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intyp1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 80px;
+
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.intyp2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 80px;
+
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intyp3 {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 80px;
+
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intyp4 {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 25px;
+  margin-left: 80px;
+
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.addJobLeft > div > label {
+  width: 250px;
+}
+
+.intyp1 > input {
+  width: 438px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1.8px solid #c2c2c2;
+}
+
+.intyp2 > select {
+  width: 160px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1.8px solid #c2c2c2;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  text-align: center;
+  color: #9c9c9c;
+}
+
+
+
+.intyp3 > input {
+  width: 438px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1.8px solid #c2c2c2;
+}
+
+.intyp4 > input {
+  width: 438px;
+  height: 85px;
+  border-radius: 5px;
+  border: 1.8px solid #c2c2c2;
+
+  text-align: start;
+}
+
+.intyp1 > input::placeholder,
+.intyp2 > input::placeholder {
+  font-family: DM Sans;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #adadad;
+}
+
+.intyp3 > input::placeholder {
+  font-family: DM Sans;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #adadad;
+}
+
+.intyp4 > input::placeholder {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #adadad;
+}
+
+.btns{
+    display: flex;
+}
+.btns>button:nth-child(1){
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 490px;
+    border-radius: 6px;
+    border: 0.85px solid #CECECE;
+    color: #C2C2C2;
+    background-color: #fff;
+
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.error{
+    
+    color: #ED5353;
+    margin-left: 350px;
+   
+    font-family: DM Sans;
+    line-height: 0;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.error1{
+    
+    color: #ED5353;
+    margin-left: 350px;
+   
+    font-family: DM Sans;
+    line-height: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.error2{
+    
+    color: #ED5353;
+    margin-left: 350px;
+   
+    font-family: DM Sans;
+    line-height: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btns>button:nth-child(2){
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 0.85px solid;
+
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+background-color: #ED5353;
+
+}
+
+.addJobRight {
+  line-height: 0;
+}
+.addJobRight>p{
+    position: fixed;
+    top: 0px;
+    left: 900px;
+    color: #fff;
+
+    font-family: DM Sans;
+font-size: 40px;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.addJobRight > img {
+  height: 100%;
+  margin-left: 100px;
+}

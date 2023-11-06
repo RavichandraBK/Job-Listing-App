@@ -1,0 +1,136 @@
+.Login {
+  display: flex;
+}
+
+.LoginLeft {
+  /* margin-top: 100px; */
+  width: 60%;
+}
+
+.LoginLeft>div{
+    margin-top: 175px;
+}
+
+.LoginLeft  div> div:nth-child(1) > p:nth-child(1) {
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 0;
+  letter-spacing: 0em;
+  padding-left: 80px;
+  text-align: left;
+}
+.LoginLeft  div> div:nth-child(1) > p:nth-child(2) {
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 0px;
+  letter-spacing: 0em;
+  padding-left: 80px;
+  text-align: left;
+  color: #525252;
+}
+.LoginLeft div> div:nth-child(2){
+    margin-top: 50px;
+}
+.LoginLeft div> div:nth-child(2) div{
+    margin-left: 80px;
+}
+.LoginLeft div> div:nth-child(2) input{
+    width: 599px;
+    height: 64px;
+    border-radius: 5px;
+    border: 2px solid #C2C2C2;
+}
+.LoginLeft div> div:nth-child(2) input::placeholder{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 20px;
+color: #525252;
+}
+.LoginLeft div> div:nth-child(2)>div:nth-child(2){
+    margin-top: 20px;
+}
+.LoginLeft div> div:nth-child(3) button{
+    width: 200px;
+    height: 53px;
+    margin-top: 50px;
+    margin-left: 80px;
+    background-color: #ED5353;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+
+    font-family: DM Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+}
+
+.LoginLeft div> div:nth-child(3)>p{
+    margin-left: 80px;
+    display: inline-block;
+
+    font-family: DM Sans;
+font-size: 21px;
+font-weight: 500;
+line-height: 10px;
+letter-spacing: 0em;
+text-align: left;
+color: #525252;
+}
+
+.LoginLeft div> div:nth-child(3)>span{
+    margin-left: 10px;
+    font-family: DM Sans;
+    cursor: pointer;
+    
+font-size: 21px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #000;
+text-decoration: underline;
+}
+
+.LoginLeft div> div:nth-child(3) button:hover{
+    border: 3px solid #0C8CE9;
+}
+
+.LoginLeft div> div:nth-child(3) button:active{
+    border: 3px solid #525252;
+}
+
+.LoginRight {
+  line-height: 0;
+  width: 100%;
+  margin-left: 150px;
+}
+
+.LoginRight > img {
+  height: 754px;
+  width: 100%;
+}
+.LoginRight>p{
+    position: absolute;
+    top: 10px;
+
+    font-family: DM Sans;
+font-size: 40px;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+left: 950px;
+
+    color: #fff;
+}
