@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const backendUrl = process.env.REACT_APP_BACKEND_URL;
-const addJob = `${backendUrl}/job-post`;
-const getJobDetail = `${backendUrl}/job-description`;
+const addJob = `${backendUrl}/api/jobs/job-post`;
+const getJobDetail = `${backendUrl}/api/jobs/job-description`;
 
 const NewJobPost = async(newJob)=>{
     try{

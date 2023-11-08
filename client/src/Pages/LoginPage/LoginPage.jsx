@@ -20,8 +20,8 @@ const LoginPage = () => {
     const userDetails = await Login(userLogin);
     // console.log(userDetails);
     if(userDetails){
-      localStorage.setItem('UserName',userDetails.data.userName);
-      localStorage.setItem('UserToken',userDetails.data.jwtLogToken);
+      localStorage.setItem('UserName',userDetails.data.recruiterName);
+      localStorage.setItem('UserToken',userDetails.data.token);
     }
     else{
       console.log('Couldnt fetch data from backend');

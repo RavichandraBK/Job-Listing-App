@@ -15,12 +15,12 @@ const Details = () => {
   const mode = jobInfo.modeOfWork === "Remote" ? "home" : "office";
 
   useEffect(() => {
-    const jobId = "653d271f9d8a815339bba212";
+    const jobId = "654baf0aecd9de4ecd0f9906";
 
     const showDetais = async (jobId) => {
       const jobRes = await jobDetails(jobId);
       // console.log(jobRes.data.data.location);
-      setSkill(jobRes.data.data.skillsRequired.split(","));
+      setSkill(jobRes.data.data.skillsRequired);
       setJobInfo(jobRes.data.data);
     };
     showDetais(jobId);
@@ -38,14 +38,14 @@ const Details = () => {
       <div className={styles.detailsBottom}>
         <div>
           <div className={styles.detailsJobType}>
-            <p>1w ago . {jobInfo.jobType}</p>
+            <p>{jobInfo.time} . {jobInfo.jobType}</p>
             <div>
               <p>
                 {jobInfo.jobPosition}
                 {/* WordPress Developer */}
                 <br />
                 <span className={styles.detailsJobLoc}>
-                  {jobInfo.location ? jobInfo.location : ""}| India
+                  {jobInfo.location ? jobInfo.location : ""} | India
                 </span>
               </p>
               {chkLogin ? <button>Edit job</button> : ""}

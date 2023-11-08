@@ -2,8 +2,8 @@ import axios from 'axios'
 
 
 const backendUrl = process.env.REACT_APP_BACKEND_URL;
-        const loginUrl = `${backendUrl}/login`;
-        const registerUrl = `${backendUrl}/register`;
+        const loginUrl = `${backendUrl}/api/auth/login`;
+        const registerUrl = `${backendUrl}/api/auth/register`;
 
 const Login = async(loginDetails)=>{
 

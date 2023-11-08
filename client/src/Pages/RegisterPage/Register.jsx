@@ -18,8 +18,8 @@ const Register = () => {
       if(!(Object.keys(newUser).length===0)){
         const userDetails = await RegisterUser(newUser);
         console.log(userDetails);
-        localStorage.setItem('UserName',userDetails.data.userName);
-        localStorage.setItem('UserToken',userDetails.data.jwtRegToken);
+        localStorage.setItem('UserName',userDetails.data.recruiterName);
+        localStorage.setItem('UserToken',userDetails.data.token);
       }
       else console.log('Couldnt register the User');
     }
@@ -56,7 +56,7 @@ const Register = () => {
             <div>
               <button onClick={handleSignUp}>Create Account</button>
               <p>Already have an account? </p>
-              <span onClick={()=>Navigate('/')}>Sign In</span>
+              <span onClick={()=>Navigate('/Login')}>Sign In</span>
             </div>
           </div>
         </div>
